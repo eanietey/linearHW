@@ -45,3 +45,4 @@ plt.show()
 
 print_equation(slope,intercept,'$','%')
 #The equation of the line is: y = -4.218462100353182 %/$ + 196.25632393318284 %
+fig.savefig('dataplot.png')
