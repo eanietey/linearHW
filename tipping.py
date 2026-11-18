@@ -26,6 +26,7 @@ plt.show()
 
 print_equation(slope,intercept,'$','$')
 #The equation of the line is: y = 0.18221473222560391 $/$ + -0.2922674195507699 $
+fig.savefig('dataplot.png')
 
 def percent_tip(x, y):
     return y/x * 100
@@ -45,4 +46,4 @@ plt.show()
 
 print_equation(slope,intercept,'$','%')
 #The equation of the line is: y = -4.218462100353182 %/$ + 196.25632393318284 %
-fig.savefig('dataplot.png')
+fig.savefig('tips%plot.png')
